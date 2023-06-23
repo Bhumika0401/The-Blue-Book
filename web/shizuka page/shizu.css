@@ -1,0 +1,227 @@
+
+#dorara{
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 100px;
+   
+ }  
+.G1 {
+transform: translate(20px, 85px) rotate(-30deg);
+}
+
+.e1 {
+transform: translate(13px, 60px) rotate(-25deg);
+}
+
+.e2 {
+transform: translate(6px, 40px) rotate(-20deg);
+}
+
+.k1 {
+transform: translate(3px, 23px) rotate(-15deg);
+}
+
+.s1 {
+transform: translate(2px, 14px) rotate(-10deg);
+}
+
+.f {
+transform: translate(1px, 8px) rotate(-5deg);
+}
+
+.o {
+transform: translate(0px, 5px) rotate(0deg);
+}
+
+.r {
+transform: translate(-1px, 8px) rotate(5deg);
+}
+
+.G2 {
+transform: translate(-2px, 14px) rotate(10deg);
+}
+
+.e3 {
+transform: translate(-3px, 25px) rotate(15deg);
+}
+
+.e4 {
+transform: translate(-6px, 40px) rotate(20deg);
+}
+
+.k2 {
+transform: translate(-14px, 60px) rotate(25deg);
+}
+
+.s2 {
+transform: translate(-20px, 80px) rotate(30deg);
+}
+span {
+display: inline-block;
+margin-top: 0px;
+margin-right: 0px;
+}
+
+
+.cloud {
+font-family: 'Open Sans', 'sans-serif';
+font-size: 200px;
+content: '';
+opacity: 1;
+position: relative;
+top: 50px;
+
+color: #eee;
+animation: float 3.5s infinite ease-in-out;
+}
+
+@keyframes float {
+  50% {
+      top: 60px;
+  }    
+  100% { 
+      top: 50px;
+  }
+}
+
+body{
+    background-color: rgb(236, 214, 218);
+}
+.uu{
+    background-color: rgb(232, 133, 182);
+    height: 350px;
+}
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+   
+  }
+  .image2 {
+    position: absolute;
+    top: 50px;
+    left: 38%;
+
+  }
+ 
+button{
+       font-size: small;
+        
+     }    
+.flex-container {
+display: flex;
+
+}
+
+.flex-container > div {
+
+margin: 70px;
+font-size: 60px;
+}
+
+ .hey{
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    justify-content: center;
+
+  }
+  
+  #startStop {
+    position: absolute;
+    top: 15px;
+    left: 45%;
+    background-color: rgb(238, 130, 130);
+    border: 0;
+    border-radius: 10px;
+    width: 70px;
+    height: 30px;
+    outline: none;
+    margin-bottom: 20px;
+  }
+  
+  .heart {
+    position: fixed;
+    top: -1vh;
+    width: 25px;
+    height: auto;
+    /* font-size: 40px; */
+    opacity: 45%;
+    transform: translateY(0);
+    animation: fall 3s linear forwards;
+  }
+  
+  @keyframes fall {
+    to {
+       
+        transform: translateX(0vh);
+      transform: translateY(101vh);
+    }
+  }
+  h3{
+    margin-top: 70px;
+     text-align: center;
+     color: rgb(0, 0, 0);
+     font-family: 'Amatic SC', cursive;
+}
+#dora{
+margin-left:32%;
+}
+#ist{
+font-size: xx-large;
+margin-left: 2px;
+font-family: 'Press Start 2P', cursive;
+margin-top: 20px;
+}
+#lob{
+margin-left:  10px;
+}
+#cake{
+margin-top: 0px;
+}
+#dorara{
+font-family: 'Cabin Sketch', cursive;
+font-size: 100px;
+margin-top: 0%;
+}
+.meow{
+height: 50px;
+width:auto;
+margin-left: 100px;
+margin-right: 150px;
+margin-top: 200px;
+
+}
+
+
+#top{
+    margin-top: 0%;
+}
+#rora { 
+
+    /* Rotate div */ 
+    -ms-transform: rotate(-15deg); /* IE 9 */ 
+    -webkit-transform: rotate(-15deg); /* Chrome, Safari, Opera */ 
+    transform: rotate(-15deg); 
+} 
+
+.new{
+  max-height: fit-content;
+ 
+   font-weight: 50%;
+   font-size: x-large;
+     font-family: 'Playfair Display', serif;
+     background: linear-gradient(300deg, white, #bfd7e0, #f5dbe8,  #d6def6,#f6c8e0);
+     background-size: 180% 180%;
+    animation: gradient-animation 5s ease infinite;
+    margin-bottom: 0%;
+   
+ }
+ a:hover{
+  text-decoration: underline;
+ }

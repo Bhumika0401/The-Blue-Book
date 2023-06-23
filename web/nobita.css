@@ -1,0 +1,242 @@
+.backkk{
+    background: linear-gradient(300deg, white, #C6DCE4,  #ebf2d1, #DAEAF1,#fafaa3);
+   background-size: 180% 180%;
+  animation: gradient-animation 5s ease infinite;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+#xx {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  user-select: none;
+  overflow-x: hidden; /* hide scrollbars on page */
+  overflow-y: hidden;
+}
+
+#ids{
+  background-color: #f4f4d6;
+ 
+}
+hr{
+  color: black;
+}
+.Slider {
+  width: 100vw;
+  height: 100vh;
+}
+
+img {
+  width: 415px;
+  height:350px;
+}
+
+.Slide > li {
+  display: grid;
+  width: 450px;
+  height: 450px;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  box-shadow: 0 0 1rem grey;
+  background: white;
+  padding: 1rem;
+  line-height: 2;
+}
+#stry{
+  margin-top: 30px;
+  text-align: left;
+}
+body{
+  font-family: 'Playfair Display', serif;
+}
+
+q::before,
+q::after {
+  animation: dancing 1s linear infinite;
+  display: inline-block;
+  transform: rotate(13deg);
+}
+
+@keyframes dancing {
+  0% {
+    transform: rotate(13deg) scale(2);
+  }
+
+  25% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(-13deg) scale(2);
+  }
+
+  75% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(13deg) scale(2);
+  }
+}
+q {
+  font-size: x-large;
+  quotes:  "“" "”" "‘" "’" "“" "”";
+}
+
+p{
+  margin-bottom: 12px;
+}
+
+.xx{
+  
+    display: flex;
+    width: 100%;
+    padding: 4% 2%;
+    box-sizing: border-box;
+    height: 100vh;
+  
+  
+}
+.box {
+  flex: 1;
+  overflow: hidden;
+  transition: .5s;
+  margin: 0 2%;
+  box-shadow: 0 20px 30px rgba(0,0,0,.1);
+  line-height: 0;
+}
+
+.box > img {
+  width: 200%;
+  height: calc(100% - 10vh);
+  object-fit: cover; 
+  transition: .5s;
+}
+
+.box > span {
+  font-size: 3.8vh;
+  display: block;
+  text-align: center;
+  height: 10vh;
+  line-height: 2.6;
+}
+
+.box:hover { flex: 1 1 50%; }
+.box:hover > img {
+  width: 100%;
+  height: 100%;
+}
+.footer #button{
+    
+	width:35px;
+	height:35px;
+	border: rgb(204, 204, 126) 12px solid;
+	border-radius:35px;
+	margin:0 auto;
+	position:relative;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.footer #button:hover{
+	width:35px;
+	height:35px;
+	border: yellow 12px solid;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+	position:relative;
+}
+.footer {
+	bottom:0;
+    
+	left:0;
+	position:static;
+    width: 100%;
+    height: 2em;
+    overflow:hidden;
+    margin:0 auto;
+   
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+	z-index:999;
+}
+.footer:hover {
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+	height: 10em;
+}
+.footer #container{
+	margin-top:5px;
+	width:100%;
+height:100%;
+  position:relative;
+  top:0;
+  left:0;
+  background: linear-gradient(300deg, white, #C6DCE4,  #ebf2d1, #DAEAF1,#fafaa3);
+  background-size: 180% 180%;
+ animation: gradient-animation 5s ease infinite;
+}
+.footer #cont{
+  position:relative;
+  top:-45px;
+  right:190px;
+	width:150px;
+	height:auto;
+	margin:0 auto;
+}
+.footer_center{
+	width:500px;
+	float:left;
+  text-align:center;
+}
+.footer h3{
+	font-family: 'Helvetica';
+	font-size: 30px;
+	font-weight: 100;
+	margin-top:70px;
+	margin-left:40px;
+}
+
+.bi {
+    vertical-align: -0.125em;
+    fill: currentColor;
+}
+.fr{
+    font-weight: bolder;
+    font-size: x-large;
+}
+.gr{
+    margin-right: 5px;
+}
+.tt{
+    margin-left: 20px;
+}
+.abt{
+  text-decoration: none;
+  color: rgb(55, 54, 54);
+}
+.abt:hover{
+  text-decoration: none;}
+.dd{
+color: whitesmoke;
+}
+a:hover{
+  text-decoration: underline;
+ 
+}
+
+
+
+

@@ -1,0 +1,91 @@
+body{
+    background-color:rgb(255, 212, 131);
+    overflow-x: hidden;
+    font-family: 'Playfair Display', serif;
+}
+.xoxo{
+    max-height: fit-content;
+   
+     font-weight: 50%;
+     font-size: x-large;
+       font-family: 'Playfair Display', serif;
+       background: linear-gradient(300deg,  #FFDEDE, #f19c77,  #bfd8da,#FAF0E4);
+       background-size: 180% 180%;
+      animation: gradient-animation 5s ease infinite;
+      margin-bottom: 0%;
+     
+   }
+.parent {
+	position: relative;
+	top: 0;
+	left: 0;
+  }
+  .image1 {
+	position: relative;
+	top: 0;
+	left: 0;
+	
+  }
+  .image2 {
+	position: absolute;
+	margin-top: 17%;
+	left: 37%;
+	
+  }
+  
+  .cloud {
+    font-family: 'Open Sans', 'sans-serif';
+    font-size: 200px;
+    content: '';
+    opacity: 1;
+    position: relative;
+    top: 80px;
+    
+    color: #eee;
+    animation: float 3.5s infinite ease-in-out;
+  }
+  
+  @keyframes float {
+      50% {
+          top: 90px;
+      }    
+      100% { 
+          top: 80px;
+      }
+  }
+
+  .cont{
+    display: flex;
+    flex-direction: column;
+ 
+  }
+  
+  .item {
+    height: 40px;
+    margin-bottom: 10px;
+  }
+  p {
+    margin-top: 30px;
+    font-family: 'Playfair Display', serif;
+    font-size: x-large;
+    margin-left: 5px;
+    margin-right: 45px;
+    text-align: justify;
+}
+#dorara{
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 100px;
+	margin-top: 0%;
+ }
+ h2,p{
+    display: inline;
+ }
+ footer{
+   position: relative;
+ }
+a:hover{
+    text-decoration: underline;
+}
+h2{
+    margin-left: 10px;
+  }
